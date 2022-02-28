@@ -81,9 +81,9 @@ body {
 
 #textDiv3 {
     margin-top: 150px;
-    margin-left: 80px;
+    margin-left: 90px;
     width: 160px;
-    height: 400px;
+    height: 200px;
 }
 
 #word {
@@ -95,7 +95,18 @@ body {
     text-align: center;
 }
 
+#btnDiv {
+    margin-left: 25px;
+    text-align: center;
+    width: 300px;
+}
+
 #cardBtn {
-    height: 10px;
-    margin-top: 1px;
+    height: 30px;
+    width: 110px;
+}
+
+#backBtn {
+    height: 30px;
+    width: 110px;
 }
