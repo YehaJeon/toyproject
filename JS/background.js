@@ -7,4 +7,4 @@ function changeBgc() {
     const colorTwo = colors[Math.floor(Math.random() * colors.length)];
     body.style.background = `linear-gradient(to top,${colorOne}, ${colorTwo})`;
 }
-window.addEventListener('click', changeBgc);
+top.addEventListener('click', changeBgc);

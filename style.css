@@ -74,8 +74,28 @@ body {
 }
 
 #textDiv2 {
-    width: 300px;
+    width: 340px;
     height: 400px;
     margin-top: 50px;
-    background-color: blue;
+}
+
+#textDiv3 {
+    margin-top: 150px;
+    margin-left: 80px;
+    width: 160px;
+    height: 400px;
+}
+
+#word {
+    text-align: center;
+    font-size: 15px;
+}
+
+#title {
+    text-align: center;
+}
+
+#cardBtn {
+    height: 10px;
+    margin-top: 1px;
 }
