@@ -1,4 +1,4 @@
-const colors = ['rgb(101, 153, 221)', 'rgb(235, 160, 131)'];
+const colors = ['##b5d4f1', '#bbaacc', '#f8fccc', '#fffefe', '#fde9f8', '#daf1b5', '#dab084', '#fa9292', '#d9ecbb', '#e5f1fc'];
 const backBtn = document.querySelector('#backBtn');
 
 const body = document.querySelector('.top');

@@ -9,9 +9,9 @@
     </head>
     <body>
         <div class="top">
-            <span>
-                <h1 style="color: rgb(32, 38, 48)" id="date">2022-02-25</h1>
-            </span>
+            <div id="clockDiv">
+                <h1 style="color: rgb(71, 63, 57)" id="date">2022-02-25</h1>
+            </div>
 
             <div class="crs1">
                 <div id="cross1"></div>
@@ -25,11 +25,11 @@
                         <h2 id="word"></h2>
                         <p id="title"></p>
                     </div>
-                    <div id="btnDiv">
-                        <button id="cardBtn">카드 배경 바꾸기</button>
-                        <button id="backBtn">하늘 배경 바꾸기</button>
-                    </div>
                 </div>
+            </div>
+
+            <div class="titleDiv">
+                <h1 class="titleText">< 하나님이 주시는 오늘의 말씀 ></h1>
             </div>
 
             <div class="btnFlex">
@@ -37,7 +37,12 @@
             </div>
         </div>
 
-        <div class="bottom"></div>
+        <div class="bottom">
+            <div id="btnDiv">
+                <button id="cardBtn">카드 배경 바꾸기</button>
+                <button id="backBtn">하늘 배경 바꾸기</button>
+            </div>
+        </div>
 
         <script src="/JS/modal.js"></script>
         <script src="/JS/text.js"></script>
