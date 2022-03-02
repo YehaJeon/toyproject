@@ -8,6 +8,6 @@ textDiv2.style = `background-image: url(/img/${chosenImg1})`;
 
 cardBtn.addEventListener('click', () => {
     const chosenImg2 = img[Math.floor(Math.random() * img.length)];
-    console.log(chosenImg2);
+    console.log(chosnImg2);
     textDiv2.style = `background-image: url(/img/${chosenImg2}) `;
 });
